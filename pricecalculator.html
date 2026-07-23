@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .box{
+        height: 400px;
+        width: 450px;
+        display: flex;
+        justify-content: center;
+        border-width: 1px;
+        border-color: grey;
+        border-style: solid;
+        border-radius: 20px;
+        padding: 40px;
+        flex-direction: column;
+        margin-top: 150px;
+
+      }
+
+      body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .para{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+      }
+
+      p{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        
+      }
+
+      .breaker{
+        color: grey;
+        margin: 0;
+      }
+
+      .total{
+        color: rgba(255, 0, 0, 0.752);
+        font-size: 30px;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="box">
+      <h1>
+        Order Summary
+      </h1>
+
+      <div class="para">
+        <div>
+          <p>
+            Items (3):
+          </p>
+        </div>
+        
+        <div>
+          <p>
+            $47.93
+          </p>
+        </div>
+      </div>
+
+      <div class="para">
+        <div>
+          <p>
+            Shipping & handling:
+          </p>
+        </div>
+
+        <div>
+          <p>
+            $4.99
+          </p>
+        </div>
+      </div>
+
+      <div class="para">
+        <div>
+          <p>
+            Total before tax:
+          </p>
+        </div>
+        
+        <div>
+          <p>
+            $52.92
+          </p>
+        </div>
+      </div>
+
+      <div class="para">
+        <div>
+          <p>
+            Estimated tax (10%):
+          </p>
+        </div>
+
+        <div>
+          <p>
+            $5.29
+          </p>
+        </div>
+      </div>
+
+      <div>
+        <p class="breaker">
+          -------------------------------------------------------------------
+        </p>
+      </div>
+
+      <div class="para">
+        <div>
+          <p class="total">
+            Order total:
+          </p>
+        </div>
+
+        <div>
+          <p class="total">
+            $58.21
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
