@@ -19,9 +19,18 @@ let b = 6;
 // console.log("a = ", a); //here a will give 6;
 
 // console.log("a = ", --a); //here a will first give 4
-
-// +=, -=, =, /= != types of operator //here == is not valid unlike java
+//assignment operators
+// +=, -=, =, /=, !=, **= types of operator //here == is not valid unlike java
 
 // a+=2
 // console.log(a); //both are valid ways
 // console.log(a+=2); //for all above operators
+
+//for comparison == and !=(not equal to)
+// console.log(a==b); //false
+// console.log(a==a); //true
+// console.log(a!=b); //true
+// console.log(a!=a); //false
+
+// let c = "5"; //string
+// console.log(a==c); //true the js will first convert string to number and then checks
