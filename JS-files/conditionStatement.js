@@ -8,3 +8,12 @@
 // } else{
 //   console.log("Can not Vote")
 // }
+
+// check odd or even
+let num = 5;
+num = 562323232332323323;
+if(num % 2 == 0){
+  console.log("Number is Even");
+} else {
+  console.log("Number is Odd");
+}
