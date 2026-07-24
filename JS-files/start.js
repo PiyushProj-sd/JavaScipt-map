@@ -34,3 +34,7 @@ let b = 6;
 
 // let c = "5"; //string
 // console.log(a==c); //true the js will first convert string to number and then checks
+
+// //for improving this we use stricter operators like === and !==;
+// console.log(a===c); //false //this check equal to and type;
+// console.log(a!==c);
