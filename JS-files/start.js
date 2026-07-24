@@ -20,3 +20,8 @@ let b = 6;
 
 // console.log("a = ", --a); //here a will first give 4
 
+// +=, -=, =, /= != types of operator //here == is not valid unlike java
+
+// a+=2
+// console.log(a); //both are valid ways
+// console.log(a+=2); //for all above operators
