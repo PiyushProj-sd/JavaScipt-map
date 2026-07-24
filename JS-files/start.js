@@ -2,6 +2,7 @@
 
 let a = 5;
 let b = 6;
+let c = "5"; //string
 // console.log(a+b);
 // console.log(a-b);
 // console.log(a*b);
@@ -32,9 +33,16 @@ let b = 6;
 // console.log(a!=b); //true
 // console.log(a!=a); //false
 
-// let c = "5"; //string
 // console.log(a==c); //true the js will first convert string to number and then checks
 
 // //for improving this we use stricter operators like === and !==;
 // console.log(a===c); //false //this check equal to and type;
 // console.log(a!==c);
+
+// use of >, <, <=, >= operators
+// console.log(a<b); //true a = 5, b = 6
+// console.log(a>b); //false
+// console.log(a<=b); //true
+// console.log(a>=b); //false
+// console.log(a<=c); //true
+//here these operators will also not be able to distinguish betweed a string and a number for comparison
