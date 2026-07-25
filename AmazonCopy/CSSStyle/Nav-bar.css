@@ -27,11 +27,13 @@
 .border{
   border: 1px solid transparent;
   border-radius: 2px;
+  padding: 5px;
 }
 
 .border:hover{
   border: 1px solid white;
   border-radius: 3px;
+  padding: 5px;
 }
 
 .nav-add{
@@ -59,6 +61,10 @@ span{
   border-radius: 4px;
   width: 920px;
   justify-content: space-evenly;
+}
+
+.nav-search:hover{
+  border: 2px solid #febd68;
 }
 
 .search-select{
@@ -94,7 +100,7 @@ span{
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(235, 178, 73);
+  background-color: #febd68;
   border: none;
   border-top-right-radius: 4px;
   border-bottom-right-radius: 4px;
@@ -104,7 +110,7 @@ span{
 }
 
 .search-icon:hover{
-  background-color: rgb(214, 168, 83);
+  background-color: rgb(255, 176, 73);
 }
 
 .language{
@@ -152,4 +158,35 @@ span{
 
 .line1-para1{
   font-size: 0.7rem;
+}
+
+.cart{
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.cart i{
+  font-size: 28px;
+}
+
+.cart-inside-div{
+  display: flex;
+  flex-direction: column;
+}
+
+.fa-brands fa-opencart{
+  position: relative;
+}
+
+.cart-number{
+  position: absolute;
+  top: 5px;
+  color: orange;
+  font-weight: 700;
+  font-size: 1.1rem;
+  right: 58px;
+  z-index: 202;
 }
