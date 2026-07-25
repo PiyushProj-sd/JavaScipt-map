@@ -7,3 +7,8 @@
 // console.log(b);
 // console.log(typeof(b)); //string+num = stringl;
 
+// let c = "$" + ((2345 + 233)/100 + (2345 + 233)/1000);
+// console.log(c);
+
+let d = ((2345 + 233)/1000);
+console.log(d);
