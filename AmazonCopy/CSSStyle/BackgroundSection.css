@@ -1,0 +1,29 @@
+.background-section{
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.bgimg{
+  height: 600px;
+  width: 1515px;
+}
+
+.text-info{
+  position: absolute;
+  background-color: white;
+  width: 96%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  bottom: 310px;
+}
+
+.text-info p,a{
+  font-size: 0.9rem;
+}
+
+a{
+  color: rgb(70, 70, 164);
+}
