@@ -5,8 +5,10 @@
 }
 
 .bgimg{
-  height: 600px;
+  height: 267px;
   width: 1515px;
+  object-fit: cover;
+  object-position: top;
 }
 
 .text-info{
@@ -17,7 +19,7 @@
   justify-content: center;
   align-items: center;
   height: 40px;
-  bottom: 310px;
+  bottom: 20px;
 }
 
 .text-info p,a{
