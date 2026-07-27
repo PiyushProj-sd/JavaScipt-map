@@ -73,6 +73,7 @@
   margin: 0 4px 0 0;
   padding: 6px 18px 6px 8px;
   border-radius: 4px;
+  cursor: pointer;
 }
 
 .lan-button{
@@ -92,4 +93,31 @@
 
 .scroll{
   margin-left: 27px;
+}
+
+.footer-panel4{
+
+  padding: 10px 0 30px;
+  background-color: #131a22;
+}
+
+.footer-panel4 a{
+  color: #dddddd;
+  font-size: 0.75rem;
+  padding: 0 7.2px;
+}
+
+.footer-panel4 li{
+  display: flex;
+  justify-content: center;
+  
+}
+
+.footer-panel4 span{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+  color: #dddddd;
+  font-size: 0.75rem;
 }
