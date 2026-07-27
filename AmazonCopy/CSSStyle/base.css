@@ -1,0 +1,48 @@
+.base-frame{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  border: 1px solid rgb(198, 198, 198);
+  padding: 20px 0px;
+  border-radius: 4px;
+}
+
+.base-h2{
+  padding: 0 0 4px;
+}
+
+.base-signin-button{
+  background-color: #ffd814;
+  margin: 4px 0px;
+  padding: 8px 75px;
+  border: none;
+  border-radius: 50px;
+}
+
+.base-signin-button:hover{
+  background-color: #f2cc12;
+  cursor: pointer;
+}
+
+.base-button-a{
+  font-size: 0.9rem;
+  color: black;
+}
+
+.base-button-para{
+  font-size: 0.68rem;
+}
+
+.base-button-para-a{
+  font-size: 0.68rem;
+  text-decoration: underline;
+  color: #2162a1;
+}
+
+.base-button-para-a:hover{
+  color: black;
+  cursor: pointer;
+
+}
