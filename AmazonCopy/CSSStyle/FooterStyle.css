@@ -52,3 +52,44 @@
   text-decoration: underline;
   cursor: pointer;
 }
+
+.footer-panel3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #cccccc;
+  background-color: #232f3e;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: rgb(74, 74, 74);
+  padding: 10px 0px 20px;
+  gap: 3px;
+}
+
+.footer-button{
+  background-color: #232f3e;
+  border: 1px solid grey;
+  color: #004b91;
+  margin: 0 4px 0 0;
+  padding: 6px 18px 6px 8px;
+  border-radius: 4px;
+}
+
+.lan-button{
+  background-color: #232f3e;
+}
+
+.footer-az-logo{
+  height: 55px;
+  margin-top: 11px;
+  margin-right: 80px;
+
+}
+
+.img{
+  height: 10px;
+}
+
+.scroll{
+  margin-left: 27px;
+}
