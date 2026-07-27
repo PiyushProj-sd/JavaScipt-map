@@ -29,3 +29,9 @@
 a{
   color: rgb(70, 70, 164);
 }
+
+a:hover{
+  color: black;
+  cursor: pointer;
+  text-decoration: underline;
+}
