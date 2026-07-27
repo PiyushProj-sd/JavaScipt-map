@@ -4,9 +4,10 @@
   align-items: center;
   flex-direction: column;
   background-color: white;
-  border: 1px solid rgb(198, 198, 198);
+  border: 1px solid rgb(208, 208, 208);
   padding: 20px 0px;
   border-radius: 4px;
+  margin-bottom: 20px;
 }
 
 .base-h2{
