@@ -4,12 +4,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Conditions and Operators Practice paper</title>
+
+    <style>
+      body{
+        background-color: black;
+        display: grid;
+        place-items: center;
+      }
+
+      input{
+        height: 40px;
+        background-color: rgb(31, 31, 31);
+        border: none;
+        border-radius: 30px;
+        width: 500px;
+        padding-left: 30px;
+        font-size: 1.2rem;
+        color: rgb(189, 189, 189);
+      }
+
+      button{
+        width: 100px;
+        height: 40px;
+        margin-top: 20px;
+        font-size: 1rem;
+        color: rgb(189, 189, 189);
+        background-color: rgb(31, 31, 31);
+        border-radius: 30px;
+        border: none;
+      }
+
+      button:active{
+        opacity: 0.7;
+      }
+
+      .box{
+        padding: 40px;
+        border: 1px solid rgb(59, 59, 59);
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+
+    </style>
   </head>
-  <body style="display: flex;
-  justify-content: center;
-  align-items: center;
-  ">
-    
+  <body>
+    <div class="box">
+      <input placeholder="Enter a number" id="inputNum">
+      <button id="submit">
+        Submit
+      </button>
+
+      <p id="output"></p>
+    </div>
   </body>
   <script src="JS-files/Practice3.js">
 
