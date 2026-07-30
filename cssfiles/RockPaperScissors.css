@@ -18,11 +18,12 @@ header{
 }
 
 main{
-  justify-content: space-between;
+  justify-content: center;
   display: flex;
+  gap: 20px;
   height: auto;
   align-items: center;
-  margin: 20px 400px;
+  margin: 20px 0;
 }
 
 button{
