@@ -49,7 +49,10 @@ console.log(example);
 /*  this is similar to the guard operator but with a OR ||
     here only one statement has to be true to get printed
 */
-
+/*these stops the code early cause they know the output based on the firsT
+  value therefore if we have to add many message and then print one of them 
+  at some time then we can just set smth before real value to be used as a false safe.
+*/
 const message = false || "Anything that's not a false value is a true false even this string is a true value";
 console.log(message);
 //for the message to not get displayed in a default operator both the values has to be false
